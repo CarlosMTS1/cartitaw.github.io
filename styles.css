@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+    padding: 20px;
+    margin-top: 50px; /* Ajusta este valor según sea necesario */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-image: url('Imagen/DM.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+h1 {
+    color: #000000;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.photos img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#answerButton {
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#answerButton:active {
+    transform: scale(1.1);
+}
+.mensaje-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('Imagen/asaa.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mensaje-container h1 {
+    color: rgb(254, 98, 98);
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+
